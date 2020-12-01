@@ -21,7 +21,7 @@ mongoose
   .then(() => console.log("Mongo Connection successful"))
   .catch((err) => console.log("err"));
 
-// // -------------------------- CONNECTION
+// -------------------------- CONNECTION
 app.listen(PORT, () => {
   console.log(`Server up and running on port ${PORT}`);
 });
