@@ -1,8 +1,8 @@
-# la-seir-9-8-final-project
+# la-seir-9-8-final-project-cms
 
 <!-- Link to hosted App TBD -->
 
-# CS Blogger Portfolio
+# Content Management System (CMS)
 
 A hosted webpage for a user to showcase thier computer science code projects, blog about their computer science learnings and provide an about section where people can connect.
 
