@@ -4,6 +4,7 @@ const Post = require("../../models/Post");
 const passport = require("passport");
 const validatePostInput = require("../../validation/post");
 
+// GET
 router.get(
   "/",
   passport.authenticate("jwt", { session: false }),
@@ -32,6 +33,7 @@ router.get("/author/:author", (req, res) => {
     );
 });
 
+// POST create
 router.post(
   "/create",
   passport.authenticate("jwt", { session: false }),
@@ -51,6 +53,7 @@ router.post(
   }
 );
 
+// PUT
 router.patch(
   "/update/:id",
   passport.authenticate("jwt", { session: false }),
@@ -73,6 +76,7 @@ router.patch(
   }
 );
 
+// DELETE
 router.delete(
   "/delete/:id",
   passport.authenticate("jwt", { session: false }),
