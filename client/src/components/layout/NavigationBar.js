@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const NavBar = ({ auth, onClick }) => (
+const NavigationBar = ({ auth, onClick }) => (
   <Navbar
     bg="dark"
     variant="dark"
@@ -40,9 +40,9 @@ const NavBar = ({ auth, onClick }) => (
   </Navbar>
 );
 
-NavBar.propTypes = {
+NavigationBar.propTypes = {
   auth: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
-export default NavBar;
+export default NavigationBar;
